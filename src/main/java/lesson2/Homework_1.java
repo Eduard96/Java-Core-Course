@@ -6,7 +6,7 @@ public class Homework_1 {
         /**
          * Task 1
          */
-        System.out.println("********** Task 1 **********");
+        System.out.println("********** Create an array and fill it with 2 number **********");
         int[] arr_1 = new int[]{1, 3};
         int[] arr_2 = new int[2];
         arr_2[0] = 2;
@@ -19,7 +19,7 @@ public class Homework_1 {
         /**
          * Task 2
          */
-        System.out.println("********** Task 2 **********");
+        System.out.println("********** Create an array and fill it with numbers from 1:1000 **********");
         int[] fromOneTo1000 = new int[1000];
         for (int i = 0; i < fromOneTo1000.length; i++) {
             fromOneTo1000[i] = i + 1;
@@ -35,13 +35,14 @@ public class Homework_1 {
          * Task 3
          */
 
-        //Odd numbers cannot be negative
-        // 1 and 0 aren't odd
-        //So this loop I'll start with a 2
-        System.out.println("********** Task 3 **********");
-        for (int i = 2; i < 20; i++) {
-            if(i == 2 || i == 3) System.out.println(i);
-            else if(i%2 != 0 && i%3 != 0) System.out.println(i);
+        System.out.println("********** Create an array and fill it with odd numbers from -20:20 **********");
+        int[] oddNumbers = new int[20];
+        for (int i = 0, j = -19; i < 20; i++, j += 2) {
+            oddNumbers[i] = j;
+        }
+
+        for (int i = 0; i < oddNumbers.length; i++) {
+            System.out.print(oddNumbers[i] + " ");
         }
     }
 }

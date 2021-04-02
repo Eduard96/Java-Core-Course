@@ -6,7 +6,7 @@ public class Homework_3 {
         /**
          * Task 7
          */
-        System.out.println("********** Task 7 **********");
+        System.out.println("********** Given an integer, 0< N < 21 , print its first 10 multiples. **********");
 
         int N = 2;
         for(int i = 1; i <= 10; i++) {

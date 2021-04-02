@@ -11,7 +11,7 @@ public class Homework_2 {
         /**
          * Task 4
          */
-        System.out.println("********** Task 4 **********");
+        System.out.println("********** Create an array and fill it. Print all elements which can be divided by 5. **********");
         for (int value : fromOneTo1000) {
             if(value % 5 == 0) System.out.println(value);
         }
@@ -19,7 +19,7 @@ public class Homework_2 {
         /**
          * Task 5
          */
-        System.out.println("********** Task 5 **********");
+        System.out.println("********** Create an array and fill it. Print all elements which are between 24.12 and 467.23 **********");
         for (int value : fromOneTo1000) {
             if(value > 24.12 && value < 467.23)
                 System.out.println(value);
@@ -28,7 +28,7 @@ public class Homework_2 {
         /**
          * Task 6
          */
-        System.out.println("********** Task 6 **********");
+        System.out.println("********** Create an array and fill it. Print count of elements which can be divided by 2 **********");
         int dividedBy2Counter = 0;
         for (int value : fromOneTo1000) {
             if(value % 2 == 0) dividedBy2Counter++;
